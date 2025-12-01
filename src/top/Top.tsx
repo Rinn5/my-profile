@@ -1,14 +1,8 @@
-import { useState } from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import './Top.css'
+import './top.css'
 
 function Top() {
   return (
-    <>
-      <Header />
-      <Footer />
-    </>
+    <h1>Top Page</h1>
   );
 }
 
