@@ -23,9 +23,7 @@ const router = createBrowserRouter([
       { path: "/contact", element: <Contact /> }
     ]
   }
-], {
-  basename: '/my-profile'
-});
+]);
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
