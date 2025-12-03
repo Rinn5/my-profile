@@ -24,7 +24,7 @@ const router = createBrowserRouter([
     ]
   }
 ], {
-  basename: '/my-profile/'
+  basename: '/my-profile'
 });
 
 createRoot(document.getElementById('root')!).render(
